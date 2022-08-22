@@ -1,13 +1,13 @@
 
 Model View Controller...
 
-Model View Controller is a popular way of seperating all the code in a large project into three sections; a Model section, View section and a Controller section.
+Model View Controller is a popular way of seperating all the code in a large project into three sections; a Model section, a View section and a Controller section.
 
 Model: the backend that contains all the complex data logic.
 
 View: Where the frontend javascript and html is dynamically rendered.
 
-Controller: The controller is just an interface that handles requests. So you can think of it as simply GET request and POST requests, but the code inside those requests, they are written in the Model. The Controller is a simple interface, the complex code that is invoked in this area, originates in the Model.
+Controller: The controller is just an interface that handles requests. So you can think of it as simply GET requests and POST requests, but the code inside those requests, they are written in the Model. The Controller is a simple interface, the complex code that is invoked in this area, originates in the Model.
 
 
 
@@ -33,7 +33,7 @@ Controller: The controller is just an interface that handles requests. So you ca
 
 The Model is the section of the code that actually interacts with the database. The Model only cares about interacting with the data, it does not care about interacting with the requests themselves or what happens if those requests fails. That is entirely the Controller's job.
 
-The View is only concerned about rendering the html/code that has been sent to it by the Controller. Meaning, the View conditionally renders based off what the Controller sends it.
+The View is only concerned about rendering the html/javascript based off what has been sent to it by the Controller. Meaning, the View conditionally renders based off what the Controller sends it.
 
 As you can see, the Controller is very much the control centre
 
